@@ -1,0 +1,91 @@
+.block1{
+    justify-content: left;
+    align-items: flex-start ;
+}
+
+
+.block1 .menu{
+    width: 200px;    
+}
+.block1 .menu a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 8px ;
+    padding: 12px 25px;
+    
+
+}
+.block1 .menu a:hover,
+.block1 .menu a:active {
+    color: aliceblue;
+    font-weight: bold;
+    background-color: blue;
+  border-radius: 20px;
+}
+ .block1 .itimes {
+    padding-left: 25px;
+    
+ }
+.block1 .itimes .sort{
+ margin-bottom: 25px;   
+}
+.block1 .itimes .sort p{
+    font-size: 12px;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+.block1 .itimes .sort p a {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px;
+    width: 65px;
+    background: url();
+    background-position: 100% 50%;
+}
+.block1 .itimes .sort p a:hover,
+.block1 .itimes .sort p a:active {
+    background:  url();
+    color: blue;
+    font-weight: 600;
+    background-position: 100% 50%;
+}
+.block1 .itimes .boxes{
+    flex-wrap: wrap;
+    
+}
+
+.block1 .itimes .boxes .box{
+margin-bottom: 28px;
+}
+.box figure  figcaption{
+    padding-left: 23px;
+
+} 
+
+.box figure  figcaption p span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box .title {
+    color:gray;
+    font-size: 14px;
+    padding-left: 23px;
+ margin-top: 10px;
+
+}
+
+.box button {
+    width: 100%;
+padding:  12px;
+    border-radius: 20px;    
+    background-color: blue;
+    color: aliceblue;
+margin-top: 15px;
+border: none;
+}
+.box button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: opensans;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: 600;
+    src: url("../fonts/OpenSans-Seminibold.ttf");
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    font-family: "opensasns" Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+
+}
+header > .container{
+    padding: 40px 20px;
+}
+
+header .container .burgerIcon {
+    width: 30px;
+    display: none;
+    margin: 0 !important;
+}
+
+header  .container img
+ {
+    width: 108px;
+    height: 69px;}
+header  .container  .menu a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+
+header  .container  .menu a:hover,
+header  .container  .menu a.active
+ {
+    color: blue;
+    font-weight: 600;
+    padding-bottom: 7px;
+    border-bottom: 3px solid  blue;
+}
+
+ header form div {
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid blue;
+    border-radius: 50px;    
+    width: 320px;
+ }
+
+ header form div input[type="text"]{
+border: none;
+ margin-right: 10px;
+ }  
+
+ header form div input[type="submit"]{
+    background: url(../images/znajok.png);
+    background-size: cover;
+     width: 20px;
+     height: 20px;
+     border: none;
+ }
+
+ header form div input[type="submit"]:hover {
+    cursor: pointer;
+ }
+
+ header .telega{
+    align-items: start;
+}
+
+header .telega img{
+    margin-right: 7px;
+    height: 30px;
+    width: 30px;
+}
+
+
+ header .telega div p {
+    font-size: 15px;
+ }
+ header .telega div a{
+    font-size: 12px;
+    color: blue;
+ }
+
+ footer{
+    background-color: rgb(56, 54, 54);
+    padding-top: 50px ;
+    padding-bottom: 20px;
+ }
+ footer .container {
+    align-items: flex-start;
+ }
+
+ footer .left figure figcaption {
+    color: aliceblue;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 106px;
+    width: 138px;
+ } 
+ footer .left{
+    align-items: flex-start;
+ }
+ footer .left figure img{
+   
+    width: 108px;
+    height: 69px;
+    margin-left: 100px;
+ }
+ 
+ footer .left nav a {
+    display: block;
+    font-size: 14px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    text-decoration: none;
+    margin-left: 79px;
+ }
+ footer .left nav a:hover, footer .levo nav a.active{
+    color: blue;
+ }
+ footer .right form div {
+    justify-content: left;
+    width: 458px;
+    border-bottom: 1px solid aliceblue;
+ }
+ footer .right form input[type="text" ]{
+    padding: 8px 0;
+    width: 100%;
+    background: none;
+    border: none;
+ }
+ footer .right form input [type="sabmit" ] {
+    width: 20px;
+    height: 20px;
+    background: url("../images/znajok.png") no-repeat;
+    background-size: cover ;
+    border: none;
+ }
+
+ footer .right >div{
+    text-align: center;
+    font-size: 14px;
+    color:aliceblue;
+    margin-top: 33px  ;
+    margin-bottom: 15px;
+ }
+ footer .coopyrights{
+    text-align: center;
+    color: aliceblue;
+    font-size: 12px;
+    margin-top: 60px
+ }

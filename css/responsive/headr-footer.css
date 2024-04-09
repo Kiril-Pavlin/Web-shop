@@ -1,0 +1,93 @@
+/*
+>=1200
+992-1199
+768-991
+576-768
+460-576
+414-460
+375-414
+320-375
+*/
+
+
+
+
+
+@media screen and (max-width: 1199px){
+
+    header form div {
+        width: 290px;
+     } 
+}
+
+@media screen and (max-width: 991px){
+
+    header form div {
+        width: 370px;
+     } 
+
+ header > .container {
+    flex-wrap: wrap;
+    justify-content: center ;
+ }
+ header > .container > img{
+    margin-right: 35px;
+ }
+ header > .container form{
+    margin-right: 20px;
+ }
+ header > .container form, header > .container .telega {
+    margin-top: 15px;
+ } 
+}
+
+@media screen and (max-width: 576px){
+
+    header .container .menu a {
+        margin: 0px  13px;}
+        header form div {
+            width: 240px;
+            
+        }
+        header .container .burgerIcon{
+            display: inline-block;
+        }   
+        header > .container form {
+            margin-top: 18px;
+        
+        }
+}
+
+@media screen and (max-width: 414px){
+
+    header .container .menu a {
+
+        margin: 0px 30px;
+        display: block;
+    }
+    header .container .menu a:hover, header .container .menu a.active {
+       
+        border-bottom: none;}
+
+        header .container .menu a:hover{
+            padding-bottom: 0;
+         }
+         header .container .menu a {
+            margin: 8px 30px;
+            display: block}
+            header > .container > img {
+                margin-right: 196px;
+            }
+            header .container .menu{
+                display: none;
+            }
+            header form div input[type="text"] {
+                border: none;
+                margin-right: 10px;
+                width: 115px;
+            }
+            header form div {
+                width: 192px;
+            }
+
+}
